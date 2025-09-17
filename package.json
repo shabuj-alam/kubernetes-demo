@@ -1,0 +1,26 @@
+{
+  "name": "kubernetes_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabuj-alam/kubernetes_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shabuj-alam/kubernetes_demo/issues"
+  },
+  "homepage": "https://github.com/shabuj-alam/kubernetes_demo#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
