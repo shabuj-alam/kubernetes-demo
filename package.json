@@ -8,18 +8,10 @@
     "start": "node index.js",
     "deploy": "sh deploy.sh"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shabuj-alam/kubernetes-demo-api.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/shabuj-alam/kubernetes-demo-api/issues"
-  },
-  "homepage": "https://github.com/shabuj-alam/kubernetes-demo-api#readme",
   "dependencies": {
     "express": "^5.1.0"
   }
