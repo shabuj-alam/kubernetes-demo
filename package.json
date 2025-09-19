@@ -1,5 +1,5 @@
 {
-  "name": "kubernetes_demo",
+  "name": "kubernetes-demo-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shabuj-alam/kubernetes_demo.git"
+    "url": "git+https://github.com/shabuj-alam/kubernetes-demo-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/shabuj-alam/kubernetes_demo/issues"
+    "url": "https://github.com/shabuj-alam/kubernetes-demo-api/issues"
   },
-  "homepage": "https://github.com/shabuj-alam/kubernetes_demo#readme",
+  "homepage": "https://github.com/shabuj-alam/kubernetes-demo-api#readme",
   "dependencies": {
     "express": "^5.1.0"
   }
