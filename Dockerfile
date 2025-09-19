@@ -9,4 +9,4 @@ COPY . .
 USER node
 EXPOSE 3000
 ENV NODE_ENV=production
-CMD ["npm", "strat"]
+CMD ["npm", "start"]
