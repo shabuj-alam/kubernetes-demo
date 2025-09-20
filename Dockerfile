@@ -1,7 +1,7 @@
 FROM node:18-alpine as base
 WORKDIR /app
 
-COPY pacakge.json package-lock.json* ./
+COPY package.json package-lock.json* ./
 RUN npm ci --omit=dev
 
 COPY . .

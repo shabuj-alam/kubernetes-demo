@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.json({
         message: 'Hello form a container',
         service: 'hello-node',
-        pod: process.NODE_ENV.POD_NAME || 'unknown',
+        pod: process.env.POD_NAME || 'unknown',
         time: new Date().toISOString(),
     });
 });
